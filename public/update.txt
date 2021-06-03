@@ -1,0 +1,10 @@
+UPDATE RUMAHWEB:
+apps/ApplicantRegisterController.php
+apps/LowonganController.php
+apps/PelamarController.php
+Upload file applicant.jpg
+
+UPDATE LOCAL:
+app/Posisi.php
+app/PosisiController.php
+table posisi

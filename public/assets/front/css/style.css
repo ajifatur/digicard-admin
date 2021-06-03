@@ -1,0 +1,75 @@
+.bg-primary-1{background: #FFF404}
+.bg-primary-2{background: #023047}
+.bg-primary-3{background: #333533}
+.bg-primary-4{background: #212529}
+.bg-light-1{background: #f2f2f2}
+.hr-yellow{border-color: #FFF404!important}
+.clear-link:hover{text-decoration: none;}
+.btn-primary-1 {color: #023047; background-color: #FFF404; border-color: #FFF404; transition: 0.2s}
+.btn-primary-1:hover {color: #023047; background-color: #ebe117}
+.btn-primary-2 {color: #fff; background-color: #023047; border-color: #023047; transition: 0.2s}
+.btn-primary-2:hover {color: #fff; background-color: #1a4e6a}
+.svg-white{filter: invert(79%) sepia(93%) saturate(1693%) hue-rotate(353deg) brightness(104%) contrast(102%);}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{ background-color: #023047!important; color: #fff!important; }
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {background-color: #023047!important; color: #fff!important;}
+.front-card img{transition: 0.2s;}
+.front-card:hover img{transform: scale(0.8)}
+.front-card-zoom{position: relative; margin: auto; overflow: hidden;}
+.front-card-zoom img{transition: 0.2s; display: block;}
+.front-card-zoom:hover .img-hover{transform: scale(1.1)}
+.front-card-zoom .img-hover{transition: 0.2s; display: block;}
+.front-card-zoom:hover img{transform: scale(1.1)}
+.overlay-banner{position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:100%; background-color: rgba(0,0,0,.7);}
+.overlay-banner-content{position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:100%;}
+.overlay-video{position: absolute; width: 100%; height: 200px; background-color: rgba(2,48,71,0.5); transition: 0.2s}
+.overlay-video-content{color: #fff; font-size: 5rem; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:100%;}
+.overlay-galery{opacity: 0; position: absolute; width: 100%; height: 200px; background-color: rgba(2,48,71,0.5); transition: 0.2s}
+.overlay-galery-content{color: #fff; font-size: 5rem; position:absolute; top:100%; left:50%; transform:translate(-50%, -50%); width:100%; transition: 0.2s}
+.front-card-zoom:hover .overlay-galery{opacity: 1}
+.front-card-zoom:hover .overlay-galery-content{top: 50%; left: 50%}
+.footer-icon{font-size: 1.5rem; background: #fff;}
+.fa-facebook-square, .fa-twitter-square, .fa-youtube-square{transition: 0.2s; padding-bottom: .1rem!important}
+.fa-facebook-square{filter: invert(34%) sepia(8%) saturate(3481%) hue-rotate(188deg) brightness(95%) contrast(86%);}
+.fa-twitter-square{filter: invert(68%) sepia(7%) saturate(3455%) hue-rotate(180deg) brightness(95%) contrast(92%);}
+.fa-youtube-square{filter: invert(24%) sepia(58%) saturate(5255%) hue-rotate(359deg) brightness(91%) contrast(115%);}
+.alert-secondary{background-color: rgba(0,0,0,.03)!important;}
+
+/*navbar*/
+.dropdown-item{padding-top: .5rem; padding-bottom: .5rem; background-color: #023047; color: #fff; border: 1px solid #023047}
+.dropdown-item:focus, .dropdown-item:hover{color: #000; background-color: #FFF404;}
+/*magic dropdown*/
+.dropdown-menu.show {display: grid;}
+
+/*footer*/
+.footer-menu .list-group-item{border-color: rgba(255,255,255,.1);}
+
+.list-group-item.active{color: #fff!important; background-color: #023047!important; border-color: #023047!important;}
+.page-link{color: #023047}
+.page-link:hover{color: #023047}
+.page-item.active .page-link{color: #FFF; background-color: #023047; border-color: #023047;}
+
+/*maps*/
+.map-data{overflow:hidden; padding-bottom:56.25%; position:relative; height:0;}
+.map-data iframe{left:0; top:0; height:100%; width:100%; position:absolute;}
+
+/*pencarian*/
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {color: #fff; background-color: #023047;}
+
+@media (max-width: 576px) {
+	.logo-center{text-align: left!important; max-width: 75%!important}
+	.logo-center-2{font-weight: normal!important; text-transform: capitalize!important;}
+	.logo-center-3, .logo-right{display: none;}
+	.logo-center-1{font-size: 1rem}
+	.logo-left{max-width: 25%!important;}
+	.logo-left-1{width: 70px!important; max-width: unset!important}
+	/*carousel*/
+	.carousel-image{height: 200px!important}
+
+	.svg-white{width: 60px!important}
+	.caption-ahli{font-weight: normal!important; font-size: 1rem!important}
+}
+
+@media (max-width: 768px) {
+	.logo-right-1{width: 120px!important}
+}
+
